@@ -9,13 +9,13 @@
 <body>
 	<h1>Job App Form</h1>
 	<form action="" method="post" class="app_form">
-		<label for="name">Name</label>
+		<label for="name" id="name">Name</label>
 		<input type="text" name="name" id="name" placeholder="Enter Name" required>
 		<br><br>
-		<label for="email">Email</label>
+		<label for="email" id="email">Email</label>
 		<input type="email" name="email" id="email" placeholder="Enter Email" required>
 		<br><br>
-		<label for="gender">Gender</label>
+		<label for="gender" id="gender">Gender</label>
 		<input type="radio" value="Male" name="gender" id="Male"><label for="gender">Male</label>
 		<input type="radio" value="Female" name="gender" id="Female"><label for="gender">Female</label>
 		<br><br>
@@ -26,16 +26,16 @@
 			<option value="HP">HP</option>
 		</select>
 		<br><br>
-		<label for="age">Age</label>
+		<label for="age" id="age">Age</label>
 		<input type="number" name="age" id="age" required placeholder="Enter age">
 		<br><br>
-		<label for="DOB">DOB</label>
-		<input type="date" name="dob" id="dob">
+		<label for="dob" id="dob">DOB</label>
+		<input type="date" name="dob" id="dob" required>
 		<br><br>
-		<label for="password">Password</label>
+		<label for="password" id="password">Password</label>
 		<input type="password" name="password" id="password" placeholder="Password" required>
 		<br><br>
-		<label for="portfolio">Portfolio</label>
+		<label for="portfolio" id="portfolio">Portfolio</label>
 		<input type="url" name="portfolio" id="portfolio" placeholder="Enter portfolio link">
 		<br><br>
 		<button type="submit">Submit</button>
