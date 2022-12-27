@@ -13,11 +13,11 @@
 		<input type="text" name="name" id="name" placeholder="Enter Name" required>
 		<br><br>
 		<label for="email">Email</label>
-		<input type="text" name="email" id="email" placeholder="Enter Email" required>
+		<input type="email" name="email" id="email" placeholder="Enter Email" required>
 		<br><br>
 		<label for="gender">Gender</label>
-		<input type="radio" name="gender"><label for="gender">Male</label>
-		<input type="radio" name="gender"><label for="gender">Female</label>
+		<input type="radio" value="Male" name="gender" id="Male"><label for="gender">Male</label>
+		<input type="radio" value="Female" name="gender" id="Female"><label for="gender">Female</label>
 		<br><br>
 		<label for="laptop brands">Select Laptop Brand</label>
 		<select name="laptop" id="laptop" required>
@@ -27,18 +27,18 @@
 		</select>
 		<br><br>
 		<label for="age">Age</label>
-		<input type="number" name="age" id="age">
+		<input type="number" name="age" id="age" required placeholder="Enter age">
 		<br><br>
 		<label for="DOB">DOB</label>
 		<input type="date" name="dob" id="dob">
 		<br><br>
 		<label for="password">Password</label>
-		<input type="password" name="password" id="password">
+		<input type="password" name="password" id="password" placeholder="Password" required>
 		<br><br>
 		<label for="portfolio">Portfolio</label>
-		<input type="url" name="portfolio" id="portfolio" required placeholder="Enter portfolio link">
+		<input type="url" name="portfolio" id="portfolio" placeholder="Enter portfolio link">
 		<br><br>
-		<input type="submit" value="Submit">
+		<button type="submit">Submit</button>
 
 	</form>
 	<!-- the entire body must be written by student -->
